@@ -11,9 +11,11 @@ namespace LexiconÖvning1
         public int Id { get; set; }
         public string Name { get; set; }
         public double Salary { get; set; }
-        public Employee(int id)
+        public Employee(int id, string name, double salaray)
         {
             this.Id = id;
+            this.Name = name;
+            this.Salary = salaray;
         }
         public Employee() { }
         public override string ToString()
