@@ -20,7 +20,7 @@ namespace LexiconÖvning1
         public Employee() { }
         public override string ToString()
         {
-            return $"ID: {Id}, Name: {Name}, Salary: {Salary}";
+            return $"ID: {Id,-5} | {Name,-20} | {Salary,10:F2} SEK";
         }
     }
 }

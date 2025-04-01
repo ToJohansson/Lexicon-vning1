@@ -10,7 +10,7 @@ namespace LexiconÖvning1
     {
         private static Register _instance;
         private List<Employee> _registers = new List<Employee>();
-        private int Id = 0;
+        private int Id = 1;
         private Register() { }
 
         public static Register Instance

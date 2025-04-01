@@ -24,9 +24,6 @@ Vilka klasser bör ingå i programmet?
 	  - Lista av employee
 	  - Metoder för att lägga till och skriva ut employee
 
-
-
-
 Uppgift 2
 Vilka attribut och metoder bör ingå i dessa klasser?
 Menu
